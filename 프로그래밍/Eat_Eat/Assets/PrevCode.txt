@@ -1,0 +1,119 @@
+﻿public void ApplySaveData()
+{
+    string[] arrSaveData = SplitByToken(_stringData, '\n');
+
+    foreach (string saveData in arrSaveData)
+    {
+        string[] arrData = SplitByToken(saveData, ' ');
+
+        switch (arrData[0])
+        {
+            case "FirstVisit":
+                break;
+            //Status------------------------------------------
+            case "DMG":
+            case "CAL":
+            case "STAR":
+            case "STG":
+            case "RBT":
+            case "LEV":
+                //Debug.Log(arrData[0] + " : " + double.Parse(arrData[1]));
+                _dicStatus[arrData[0]] = double.Parse(arrData[1]);
+                break;
+            //Skill & Tool------------------------------------------
+            case "InstanceSuperFever":
+            case "TripleSpoonAttack":
+            case "CriticalUp":
+            case "DoubleCalorie":
+            case "MagicalTableWare":
+            case "DoubleDamage":
+            case "ToolSpoon":
+            case "ToolKnife":
+            case "ToolChopstick":
+            case "ToolFork":
+            case "MagicalSpoon":
+            case "MagicalKnife":
+            case "MagicalChopstick":
+            case "MagicalFork":
+                //Debug.Log(arrData[0] + " : " + int.Parse(arrData[1]));
+                _dicSkillToolLevel[arrData[0]] = int.Parse(arrData[1]);
+                break;
+            //Purchased & Equipted-----------------------------------
+            case "HelperSpoonItemWood":
+            case "HelperSpoonItemCopper":
+            case "HelperSpoonItemSilver":
+            case "HelperSpoonItemGold":
+            case "HelperKnifeItemWood":
+            case "HelperKnifeItemCopper":
+            case "HelperKnifeItemSilver":
+            case "HelperKnifeItemGold":
+            case "HelperChopStickItemWood":
+            case "HelperChopStickItemCopper":
+            case "HelperChopStickItemSilver":
+            case "HelperChopStickItemGold":
+            case "HelperForkItemWood":
+            case "HelperForkItemCopper":
+            case "HelperForkItemSilver":
+            case "HelperForkItemGold":
+            case "MagicalSpoonItemWood":
+            case "MagicalSpoonItemCopper":
+            case "MagicalSpoonItemSilver":
+            case "MagicalSpoonItemGold":
+            case "MagicalKnifeItemWood":
+            case "MagicalKnifeItemCopper":
+            case "MagicalKnifeItemSilver":
+            case "MagicalKnifeItemGold":
+            case "MagicalChopStickItemWood":
+            case "MagicalChopStickItemCopper":
+            case "MagicalChopStickItemSilver":
+            case "MagicalChopStickItemGold":
+            case "MagicalForkItemWood":
+            case "MagicalForkItemCopper":
+            case "MagicalForkItemSilver":
+            case "MagicalForkItemGold":
+            case "DefaultCostume":
+            case "SupermanCostume":
+                _dicPurchasedEquipted[arrData[0]] = int.Parse(arrData[1]);
+                break;
+        }
+    }
+}
+
+string -> XmlString -> byte[]
+public byte[] DataToByte()
+{
+    //string xmlStringData;
+
+    //XmlSerializer xmlSerializer = new XmlSerializer(typeof(string));
+    //using (StringWriter stringWriter = new StringWriter())
+    //{
+    //    xmlSerializer.Serialize(stringWriter, _stringData);
+    //    xmlStringData = stringWriter.ToString();
+    //}
+    //return System.Text.ASCIIEncoding.Default.GetBytes(xmlStringData);
+
+    return Serializer.ObjectToByteArraySerialize(this);
+}
+
+byte[] -> XmlString -> string
+public void ByteToData(byte[] byteData)
+{
+    ////Byte To XmlString
+    //string xmlStringData = System.Text.ASCIIEncoding.Default.GetString(byteData);
+
+    ////xmlString To Object
+    //XmlSerializer xmlSerializer = new XmlSerializer(typeof(string));
+    //object obj = xmlSerializer.Deserialize(new StringReader(xmlStringData));
+
+    //_stringData = (string)obj;
+
+    this = Serializer.Deserialize<SaveData>(byteData);
+    Print("Loaded Data");
+}
+
+	
+private string[] SplitByToken(string data, char token)
+{
+    string[] arrPurchsed = data.Split(token);
+    return arrPurchsed;
+}
