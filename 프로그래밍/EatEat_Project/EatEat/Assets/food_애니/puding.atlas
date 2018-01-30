@@ -1,0 +1,27 @@
+
+puding.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+puding/Western food_puding1
+  rotate: true
+  xy: 2, 2
+  size: 231, 158
+  orig: 231, 158
+  offset: 0, 0
+  index: -1
+puding/Western food_puding2
+  rotate: true
+  xy: 162, 2
+  size: 231, 158
+  orig: 231, 158
+  offset: 0, 0
+  index: -1
+puding/Western food_puding3
+  rotate: true
+  xy: 322, 2
+  size: 231, 158
+  orig: 231, 158
+  offset: 0, 0
+  index: -1

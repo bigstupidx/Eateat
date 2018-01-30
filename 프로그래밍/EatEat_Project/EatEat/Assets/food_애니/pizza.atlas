@@ -1,0 +1,27 @@
+
+pizza.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pizza/Western food_pizza1
+  rotate: false
+  xy: 2, 2
+  size: 214, 114
+  orig: 214, 114
+  offset: 0, 0
+  index: -1
+pizza/Western food_pizza2
+  rotate: false
+  xy: 218, 2
+  size: 214, 114
+  orig: 214, 114
+  offset: 0, 0
+  index: -1
+pizza/Western food_pizza3
+  rotate: false
+  xy: 434, 2
+  size: 214, 114
+  orig: 214, 114
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+salad.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+salad/Western food_salad1
+  rotate: false
+  xy: 2, 2
+  size: 225, 121
+  orig: 225, 121
+  offset: 0, 0
+  index: -1
+salad/Western food_salad2
+  rotate: false
+  xy: 229, 2
+  size: 225, 121
+  orig: 225, 121
+  offset: 0, 0
+  index: -1
+salad/Western food_salad3
+  rotate: false
+  xy: 456, 2
+  size: 225, 121
+  orig: 225, 121
+  offset: 0, 0
+  index: -1

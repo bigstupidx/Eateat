@@ -1,0 +1,27 @@
+
+hotdog.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hotdog/Western food_hotdog1
+  rotate: true
+  xy: 2, 2
+  size: 212, 140
+  orig: 212, 140
+  offset: 0, 0
+  index: -1
+hotdog/Western food_hotdog2
+  rotate: true
+  xy: 144, 2
+  size: 212, 140
+  orig: 212, 140
+  offset: 0, 0
+  index: -1
+hotdog/Western food_hotdog3
+  rotate: false
+  xy: 286, 74
+  size: 212, 140
+  orig: 212, 140
+  offset: 0, 0
+  index: -1

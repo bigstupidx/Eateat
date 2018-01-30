@@ -26,7 +26,7 @@ public class MainMenu : MonoBehaviour
 
         if (true == StageSystem.instance.IsBossStage())
         {
-            transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+            transform.localScale = new Vector3(1.2f, 1.1f, 1.1f);
         }
     }
 
