@@ -1,0 +1,27 @@
+
+cake.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cake/Western food_cake1
+  rotate: true
+  xy: 2, 2
+  size: 174, 159
+  orig: 174, 159
+  offset: 0, 0
+  index: -1
+cake/Western food_cake2
+  rotate: true
+  xy: 163, 2
+  size: 174, 159
+  orig: 174, 159
+  offset: 0, 0
+  index: -1
+cake/Western food_cake3
+  rotate: false
+  xy: 324, 17
+  size: 174, 159
+  orig: 174, 159
+  offset: 0, 0
+  index: -1
