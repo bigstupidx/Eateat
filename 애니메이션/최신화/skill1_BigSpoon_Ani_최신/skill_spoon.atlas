@@ -1,0 +1,13 @@
+
+skill_spoon.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skill_spoon
+  rotate: false
+  xy: 2, 2
+  size: 530, 330
+  orig: 530, 330
+  offset: 0, 0
+  index: -1

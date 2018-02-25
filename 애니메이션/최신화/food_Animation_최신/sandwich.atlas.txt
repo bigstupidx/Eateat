@@ -1,0 +1,27 @@
+
+sandwich.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sandwich/Western food_sandwich1
+  rotate: true
+  xy: 2, 2
+  size: 213, 152
+  orig: 213, 152
+  offset: 0, 0
+  index: -1
+sandwich/Western food_sandwich2
+  rotate: true
+  xy: 156, 2
+  size: 213, 152
+  orig: 213, 152
+  offset: 0, 0
+  index: -1
+sandwich/Western food_sandwich3
+  rotate: true
+  xy: 310, 2
+  size: 213, 152
+  orig: 213, 152
+  offset: 0, 0
+  index: -1

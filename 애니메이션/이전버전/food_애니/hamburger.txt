@@ -1,0 +1,27 @@
+
+hamburger.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hamburger/Western food_hamburger1
+  rotate: true
+  xy: 2, 2
+  size: 213, 138
+  orig: 213, 138
+  offset: 0, 0
+  index: -1
+hamburger/Western food_hamburger2
+  rotate: true
+  xy: 142, 2
+  size: 213, 138
+  orig: 213, 138
+  offset: 0, 0
+  index: -1
+hamburger/Western food_hamburger3
+  rotate: false
+  xy: 282, 77
+  size: 213, 138
+  orig: 213, 138
+  offset: 0, 0
+  index: -1

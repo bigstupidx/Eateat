@@ -1,0 +1,27 @@
+
+chicken.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chicken/Western food_chicken1
+  rotate: true
+  xy: 2, 2
+  size: 226, 157
+  orig: 226, 157
+  offset: 0, 0
+  index: -1
+chicken/Western food_chicken2
+  rotate: true
+  xy: 161, 2
+  size: 226, 157
+  orig: 226, 157
+  offset: 0, 0
+  index: -1
+chicken/Western food_chicken3
+  rotate: true
+  xy: 320, 2
+  size: 226, 157
+  orig: 226, 157
+  offset: 0, 0
+  index: -1

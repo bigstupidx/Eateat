@@ -1,0 +1,27 @@
+
+steak.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+steak/Western food_steak1
+  rotate: false
+  xy: 2, 2
+  size: 249, 114
+  orig: 249, 114
+  offset: 0, 0
+  index: -1
+steak/Western food_steak2
+  rotate: false
+  xy: 253, 118
+  size: 249, 114
+  orig: 249, 114
+  offset: 0, 0
+  index: -1
+steak/Western food_steak3
+  rotate: false
+  xy: 2, 118
+  size: 249, 114
+  orig: 249, 114
+  offset: 0, 0
+  index: -1

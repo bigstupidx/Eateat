@@ -1,0 +1,27 @@
+
+pasta.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pasta/Western food_pasta1
+  rotate: false
+  xy: 2, 124
+  size: 212, 120
+  orig: 212, 120
+  offset: 0, 0
+  index: -1
+pasta/Western food_pasta2
+  rotate: false
+  xy: 2, 2
+  size: 212, 120
+  orig: 212, 120
+  offset: 0, 0
+  index: -1
+pasta/Western food_pasta3
+  rotate: false
+  xy: 216, 124
+  size: 212, 120
+  orig: 212, 120
+  offset: 0, 0
+  index: -1
