@@ -1,0 +1,167 @@
+
+character_04.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm2_L
+  rotate: false
+  xy: 363, 344
+  size: 137, 170
+  orig: 137, 170
+  offset: 0, 0
+  index: -1
+arm2_R
+  rotate: false
+  xy: 363, 172
+  size: 137, 170
+  orig: 137, 170
+  offset: 0, 0
+  index: -1
+arm3_L
+  rotate: true
+  xy: 2, 9
+  size: 147, 216
+  orig: 147, 216
+  offset: 0, 0
+  index: -1
+arm3_R
+  rotate: false
+  xy: 393, 798
+  size: 148, 216
+  orig: 148, 216
+  offset: 0, 0
+  index: -1
+arm_L
+  rotate: false
+  xy: 543, 848
+  size: 171, 166
+  orig: 171, 166
+  offset: 0, 0
+  index: -1
+arm_R
+  rotate: false
+  xy: 716, 848
+  size: 171, 166
+  orig: 171, 166
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 158
+  size: 359, 356
+  orig: 359, 356
+  offset: 0, 0
+  index: -1
+eye_burp
+  rotate: false
+  xy: 494, 577
+  size: 237, 81
+  orig: 237, 81
+  offset: 0, 0
+  index: -1
+eye_chew
+  rotate: true
+  xy: 393, 556
+  size: 240, 99
+  orig: 240, 99
+  offset: 0, 0
+  index: -1
+eye_see
+  rotate: true
+  xy: 393, 556
+  size: 240, 99
+  orig: 240, 99
+  offset: 0, 0
+  index: -1
+eye_close
+  rotate: false
+  xy: 494, 660
+  size: 224, 95
+  orig: 224, 95
+  offset: 0, 0
+  index: -1
+eye_hungry
+  rotate: false
+  xy: 543, 757
+  size: 239, 89
+  orig: 239, 89
+  offset: 0, 0
+  index: -1
+foot_L
+  rotate: false
+  xy: 784, 781
+  size: 94, 65
+  orig: 94, 65
+  offset: 0, 0
+  index: -1
+foot_R
+  rotate: false
+  xy: 502, 195
+  size: 93, 65
+  orig: 93, 65
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 889, 821
+  size: 193, 114
+  orig: 193, 114
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 516
+  size: 389, 498
+  orig: 389, 498
+  offset: 0, 0
+  index: -1
+leg_L
+  rotate: false
+  xy: 220, 2
+  size: 134, 154
+  orig: 134, 154
+  offset: 0, 0
+  index: -1
+leg_R
+  rotate: false
+  xy: 502, 421
+  size: 134, 154
+  orig: 134, 154
+  offset: 0, 0
+  index: -1
+mouse_burp
+  rotate: true
+  xy: 393, 525
+  size: 29, 67
+  orig: 29, 67
+  offset: 0, 0
+  index: -1
+mouse_chew
+  rotate: true
+  xy: 720, 661
+  size: 94, 49
+  orig: 94, 49
+  offset: 0, 0
+  index: -1
+mouse_close
+  rotate: true
+  xy: 638, 420
+  size: 155, 52
+  orig: 155, 52
+  offset: 0, 0
+  index: -1
+mouse_hungry
+  rotate: true
+  xy: 692, 452
+  size: 123, 57
+  orig: 123, 57
+  offset: 0, 0
+  index: -1
+mouse_open
+  rotate: true
+  xy: 502, 262
+  size: 157, 101
+  orig: 157, 101
+  offset: 0, 0
+  index: -1
