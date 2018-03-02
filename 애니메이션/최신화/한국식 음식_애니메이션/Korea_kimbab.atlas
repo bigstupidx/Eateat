@@ -1,0 +1,27 @@
+
+Korea_kimbab.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Korea_kimbab1
+  rotate: false
+  xy: 2, 145
+  size: 276, 141
+  orig: 276, 141
+  offset: 0, 0
+  index: -1
+Korea_kimbab2
+  rotate: false
+  xy: 2, 2
+  size: 276, 141
+  orig: 276, 141
+  offset: 0, 0
+  index: -1
+Korea_kimbab3
+  rotate: true
+  xy: 280, 10
+  size: 276, 141
+  orig: 276, 141
+  offset: 0, 0
+  index: -1

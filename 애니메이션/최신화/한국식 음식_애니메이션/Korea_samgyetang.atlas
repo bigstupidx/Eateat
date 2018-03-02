@@ -1,0 +1,27 @@
+
+Korea_samgyetang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Korea_samgyetang1
+  rotate: false
+  xy: 2, 151
+  size: 275, 147
+  orig: 275, 147
+  offset: 0, 0
+  index: -1
+Korea_samgyetang2
+  rotate: false
+  xy: 2, 2
+  size: 275, 147
+  orig: 275, 147
+  offset: 0, 0
+  index: -1
+Korea_samgyetang3
+  rotate: true
+  xy: 279, 23
+  size: 275, 147
+  orig: 275, 147
+  offset: 0, 0
+  index: -1

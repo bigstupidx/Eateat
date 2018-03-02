@@ -1,0 +1,27 @@
+
+Korea_tteokbokki.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Korea_tteokbokki1
+  rotate: false
+  xy: 2, 254
+  size: 276, 124
+  orig: 276, 124
+  offset: 0, 0
+  index: -1
+Korea_tteokbokki2
+  rotate: false
+  xy: 2, 128
+  size: 276, 124
+  orig: 276, 124
+  offset: 0, 0
+  index: -1
+Korea_tteokbokki3
+  rotate: false
+  xy: 2, 2
+  size: 276, 124
+  orig: 276, 124
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+table2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+table2
+  rotate: false
+  xy: 2, 2
+  size: 413, 327
+  orig: 413, 327
+  offset: 0, 0
+  index: -1

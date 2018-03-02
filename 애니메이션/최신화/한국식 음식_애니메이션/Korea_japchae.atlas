@@ -1,0 +1,27 @@
+
+Korea_japchae.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Korea_japchae1
+  rotate: false
+  xy: 2, 254
+  size: 275, 124
+  orig: 275, 124
+  offset: 0, 0
+  index: -1
+Korea_japchae2
+  rotate: false
+  xy: 2, 128
+  size: 275, 124
+  orig: 275, 124
+  offset: 0, 0
+  index: -1
+Korea_japchae3
+  rotate: false
+  xy: 2, 2
+  size: 275, 124
+  orig: 275, 124
+  offset: 0, 0
+  index: -1

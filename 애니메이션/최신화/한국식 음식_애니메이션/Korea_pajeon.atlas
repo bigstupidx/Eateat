@@ -1,0 +1,27 @@
+
+Korea_pajeon.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Korea_pajeon1
+  rotate: false
+  xy: 2, 264
+  size: 275, 129
+  orig: 275, 129
+  offset: 0, 0
+  index: -1
+Korea_pajeon2
+  rotate: false
+  xy: 2, 133
+  size: 275, 129
+  orig: 275, 129
+  offset: 0, 0
+  index: -1
+Korea_pajeon3
+  rotate: false
+  xy: 2, 2
+  size: 275, 129
+  orig: 275, 129
+  offset: 0, 0
+  index: -1

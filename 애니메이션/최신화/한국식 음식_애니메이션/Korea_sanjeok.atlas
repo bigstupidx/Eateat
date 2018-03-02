@@ -1,0 +1,27 @@
+
+Korea_sanjeok.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Korea_sanjeok1
+  rotate: false
+  xy: 2, 262
+  size: 275, 128
+  orig: 275, 128
+  offset: 0, 0
+  index: -1
+Korea_sanjeok2
+  rotate: false
+  xy: 2, 132
+  size: 275, 128
+  orig: 275, 128
+  offset: 0, 0
+  index: -1
+Korea_sanjeok3
+  rotate: false
+  xy: 2, 2
+  size: 275, 128
+  orig: 275, 128
+  offset: 0, 0
+  index: -1
